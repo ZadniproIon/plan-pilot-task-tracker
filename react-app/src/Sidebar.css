@@ -1,0 +1,57 @@
+#sidebar-div {
+    height: 100vh;
+    background-color: #3F51B5;
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    color: #FFFFFF;
+}
+
+#sidebar-div h1 {
+    font-weight: bold;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 290px;
+}
+
+#sidebar-div a, #sidebar-div input, #sidebar-div button, #sidebar-div select {
+    background-color: #F5F7FA;
+    color: #1A1A1A;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+    font-size: 16px;
+    width: 100%;
+}
+
+#sidebar-div option {
+    padding: none;
+}
+
+
+#sidebar-div button {
+    cursor: pointer;
+}
+
+#sidebar-div button:hover, #sidebar-div a:hover {
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+#sidebar-div a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+}
